@@ -72,7 +72,7 @@ const CollaborativeEditor = () => {
   }, [content]);
 
   useEffect(() => {
-    socketRef.current = io('https://ce-backend-nntq.onrender.com/api/data', {
+    socketRef.current = io('https://ce-backend-nntq.onrender.com', {
       reconnectionAttempts: 5,
       reconnectionDelay: 1000,
       timeout: 20000
@@ -305,4 +305,5 @@ const CollaborativeEditor = () => {
 };
 
 export default CollaborativeEditor;
+
 
