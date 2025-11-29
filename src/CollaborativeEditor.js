@@ -258,7 +258,7 @@ const CollaborativeEditor = () => {
                 }}
                 className="px-3 py-1 bg-purple-600 text-white rounded hover:bg-purple-700 transition"
               >
-                Copy Share Link
+               Share
               </button>
             </div>
           </div>
@@ -305,5 +305,6 @@ const CollaborativeEditor = () => {
 };
 
 export default CollaborativeEditor;
+
 
 
